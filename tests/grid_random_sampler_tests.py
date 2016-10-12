@@ -21,9 +21,9 @@ from code import ndSampler
 
 # Determine which tests will be run with bools
 Poisson = False
-Chebyshev = False
-Clenshaw = False
-Uniform = False
+Chebyshev = True
+Clenshaw = True
+Uniform = True
 Stroud = True
 
 if Poisson is True:
