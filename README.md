@@ -1,4 +1,5 @@
-#Smolyak Sparse Grid Library
+**Smolyak Sparse Grid Library**
+
 This library is an implementation of Smolyak’s Sparse Grid Algorithm for solving integration and interpolation problems
 in d-dim spaces with far fewer function evaluations than needed with traditional tensor production
 integration/interpolation.
@@ -25,20 +26,21 @@ I also implement several general sampling algorithms for utility :
 
     Uniform Random - Samples drawn from uniform probability distribution
 
-####Usage####
+**Usage**
 
     /tests/sparse_grid_interp_tests.py - example usage and tests for sparse-grid interpolation
     /tests/grid_random_sampler_tests.py - example usage and tests for sparse-grid, Poisson, and Uniform random samplers
 
-####User defined function####
+**User defined function**
 
     fun_nd.py provides example code that evaluates functions in 2D for a given test function. The user must specify a
     new funtion fun_nd.py that follows this same format and evaluates n-dim target functions desired for interpolation.
 
-####Dependencies####
+**Dependencies**
+    
     itertools
 
-####Smolyak’s Sparse Grid Algorithm####
+**Smolyak’s Sparse Grid Algorithm**
 
     One approach to solving numerical integration (or polynomial interpolation) is to use 1D Gauss quadrature rules
     (or Gauss-Hermite polynomials) that are applied separately to each dimension, forming a tensor-product rule. However,
@@ -66,7 +68,7 @@ I also implement several general sampling algorithms for utility :
     as the Chebyshev and Clenshaw-Curtis formulae, which for higher dimensions provide rules with orders of magnitude fewer
     points than those for tensor-product rules when the abscissae properties are chosen well (Xiu, 2007).
 
-####References####
+**References**
 
     Barthelmann, V., E. Novak, and K. Ritter, 2000, High dimensional polynomial interpolation on sparse grids,
     Adv. in Comput. Math., 12, 273–288.
