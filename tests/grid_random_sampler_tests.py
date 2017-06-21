@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 """
-Some unit tests and usage examples for random and sparse grid sampler class
+Some tests and usage examples for random and sparse grid sampler class
 
 @Usage Examples and Tests
 
