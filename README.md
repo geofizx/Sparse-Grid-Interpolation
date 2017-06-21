@@ -39,6 +39,7 @@ I also implement several general sampling algorithms for utility :
 **Dependencies**
     
     itertools
+    matplotlib (for examples only)
 
 **Smolyak’s Sparse Grid Algorithm**
 
