@@ -55,7 +55,7 @@ class ndSampler:
 			lp = 0
 			Y = npy.ones(shape=(1,d),dtype=float)
 			Y *= 0.5
-			indx_out = npy.asarray([0,0])
+			indx_out = npy.asarray([0 for dims in range(d)])
 			mi = [1]
 		else:
 			lp = n
